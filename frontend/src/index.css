@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: "Poppins", serif !important;
+}
+input{
+  border-radius: 10px !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", serif !important;
+}
+.poppins{  font-family: "Poppins", serif;}
+.input-field {transition: background-color 0.3s ease, border-color 0.3s ease;}
+.input-field:disabled {
+  background-color: transparent;
+  cursor: not-allowed;
+}
+.input-field.active {background-color: #ffffff;}
+.input-field.inactive {background-color: #f9fafb;}
+.input-field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.input-field:focus {
+  border-color: #4a90e2;
+}
