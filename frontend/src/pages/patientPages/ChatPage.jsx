@@ -71,7 +71,7 @@ const ChatPage = () => {
     if (selectedChat) {
       const fetchMessages = async () => {
         try {
-          const response = await fetch(`https:/final-pms.onrender.com//api/chats/${selectedChat}/messages`, {
+          const response = await fetch(`https:/final-pms.onrender.com/api/chats/${selectedChat}/messages`, {
             headers: { Authorization: `Bearer ${token}` },
           });
           const data = await response.json();
