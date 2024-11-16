@@ -30,7 +30,7 @@ const PORT = Config.PORT || 8000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors({
-  origin: "https://team-horizon-3ebg.vercel.app",
+  origin: "https://final-pms.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
   credentials: true
 }));

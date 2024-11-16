@@ -58,7 +58,7 @@ const PatientEditProfile = () => {
             address: patient.address,
           });
 
-          setProfileImagePreview(`https://team-horizon.onrender.com/${patient.profileImage}`);
+          setProfileImagePreview(`https://final-pms.onrender.com//${patient.profileImage}`);
           setLoading(false);
         }
       } catch (err) {

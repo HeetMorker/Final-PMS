@@ -17,7 +17,7 @@ const DoctorDetailsDrawer = ({ open, onClose, doctor }) => {
           <img
             src={
               doctor?.profileImage
-                ? `https://team-horizon.onrender.com/${doctor.profileImage}`
+                ? `https://final-pms.onrender.com//${doctor.profileImage}`
                 : "https://via.placeholder.com/100"
             }
             alt={doctor?.firstName}
@@ -114,7 +114,7 @@ const DoctorDetailsDrawer = ({ open, onClose, doctor }) => {
             <img
               src={
                 doctor?.signatureImage
-                  ? `https://team-horizon.onrender.com/${doctor.signatureImage}`
+                  ? `https://final-pms.onrender.com//${doctor.signatureImage}`
                   : "https://via.placeholder.com/100x50"
               }
               alt="Doctor Signature"

@@ -27,7 +27,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://team-horizon.onrender.com/api/prescription",
+					"raw": "https://final-pms.onrender.com//api/prescription",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -65,7 +65,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://team-horizon.onrender.com/api/prescription/670854ad52c33beee84afc83",
+					"raw": "https://final-pms.onrender.com//api/prescription/670854ad52c33beee84afc83",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -104,7 +104,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://team-horizon.onrender.com/api/prescription",
+					"raw": "https://final-pms.onrender.com//api/prescription",
 					"protocol": "http",
 					"host": [
 						"localhost"

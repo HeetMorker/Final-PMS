@@ -67,7 +67,7 @@ Steps :~
 => npm start
 
 
-The frontend should be available at http://localhost:3000 and the backend at https://team-horizon.onrender.com.
+The frontend should be available at http://localhost:3000 and the backend at https://final-pms.onrender.com/.
 
 
 * Project Structure :~

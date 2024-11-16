@@ -27,7 +27,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://team-horizon.onrender.com/api/appointment",
+					"raw": "https://final-pms.onrender.com//api/appointment",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -65,7 +65,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://team-horizon.onrender.com/api/appointments",
+					"raw": "https://final-pms.onrender.com//api/appointments",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -98,7 +98,7 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "https://team-horizon.onrender.com/api/appointments/6706ef82d4338cafbacd95d5",
+					"raw": "https://final-pms.onrender.com//api/appointments/6706ef82d4338cafbacd95d5",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -134,7 +134,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://team-horizon.onrender.com/api/appointments/reschedule/6701898a780cddc0a4ee6712",
+					"raw": "https://final-pms.onrender.com//api/appointments/reschedule/6701898a780cddc0a4ee6712",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -171,7 +171,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://team-horizon.onrender.com/api/appointments/cancel/6701898a780cddc0a4ee6712",
+					"raw": "https://final-pms.onrender.com//api/appointments/cancel/6701898a780cddc0a4ee6712",
 					"protocol": "http",
 					"host": [
 						"localhost"

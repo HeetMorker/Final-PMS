@@ -21,7 +21,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://team-horizon.onrender.com/api/payment",
+					"raw": "https://final-pms.onrender.com//api/payment",
 					"protocol": "http",
 					"host": [
 						"localhost"
