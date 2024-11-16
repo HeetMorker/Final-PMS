@@ -18,7 +18,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/patients/appointments",
+					"raw": "https://final-pms.onrender.com/api/patients/appointments",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -45,7 +45,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/patients/appointment/670184fe768bf7b726abe952",
+					"raw": "https://final-pms.onrender.com/api/patients/appointment/670184fe768bf7b726abe952",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -73,7 +73,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/patients/patient/records/670184cc768bf7b726abe94c/66fedc77cd28841ff655876d",
+					"raw": "https://final-pms.onrender.com/api/patients/patient/records/670184cc768bf7b726abe94c/66fedc77cd28841ff655876d",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -128,7 +128,7 @@
 					]
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/patients/patient/records",
+					"raw": "https://final-pms.onrender.com/api/patients/patient/records",
 					"protocol": "http",
 					"host": [
 						"localhost"

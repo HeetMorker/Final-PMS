@@ -21,12 +21,12 @@ const Header = ({ activeMenu, onSearch }) => {
         const decoded = jwtDecode(token);
         setUserName(`${decoded.firstName} ${decoded.lastName}`);
         setUserRole(decoded.role);
-        axios.get("https://final-pms.onrender.com//api/users/profile", {
+        axios.get("https://final-pms.onrender.com/api/users/profile", {
             headers: { Authorization: `Bearer ${token}` },
           })
           .then((response) => {
             const userData = response.data;
-            setProfileImage(`https://final-pms.onrender.com//${userData.profileImage}`);
+            setProfileImage(`https://final-pms.onrender.com/${userData.profileImage}`);
           })
           .catch((error) => console.error("Error fetching user profile:", error));
       } catch (error) {
@@ -111,7 +111,7 @@ const Header = ({ activeMenu, onSearch }) => {
 
           <Link to={`/${userRole}`} className="flex items-center space-x-2">
             <img
-              src={profileImage || "https://final-pms.onrender.com//default-profile.png"}
+              src={profileImage || "https://final-pms.onrender.com/default-profile.png"}
               alt="user"
               className="w-10 h-10 rounded-full"
             />

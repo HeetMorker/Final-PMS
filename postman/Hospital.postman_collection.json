@@ -21,7 +21,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/hospitals",
+					"raw": "https://final-pms.onrender.com/api/hospitals",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -53,7 +53,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/hospitals",
+					"raw": "https://final-pms.onrender.com/api/hospitals",
 					"protocol": "http",
 					"host": [
 						"localhost"

@@ -148,7 +148,7 @@
 					]
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/invoice",
+					"raw": "https://final-pms.onrender.com/api/invoice",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -194,7 +194,7 @@
 					]
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/invoice/6707fdda075a5d6e2edca05b",
+					"raw": "https://final-pms.onrender.com/api/invoice/6707fdda075a5d6e2edca05b",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -228,7 +228,7 @@
 					"formdata": []
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/invoice/6707fdda075a5d6e2edca05b",
+					"raw": "https://final-pms.onrender.com/api/invoice/6707fdda075a5d6e2edca05b",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -262,7 +262,7 @@
 					"formdata": []
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/invoice",
+					"raw": "https://final-pms.onrender.com/api/invoice",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -295,7 +295,7 @@
 					"formdata": []
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/invoice/user/invoice",
+					"raw": "https://final-pms.onrender.com/api/invoice/user/invoice",
 					"protocol": "http",
 					"host": [
 						"localhost"

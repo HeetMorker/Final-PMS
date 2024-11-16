@@ -21,7 +21,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/register-admin",
+					"raw": "https://final-pms.onrender.com/api/users/register-admin",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -51,7 +51,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/register-patient",
+					"raw": "https://final-pms.onrender.com/api/users/register-patient",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -213,7 +213,7 @@
 					]
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/add-doctor",
+					"raw": "https://final-pms.onrender.com/api/users/add-doctor",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -243,7 +243,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/login",
+					"raw": "https://final-pms.onrender.com/api/users/login",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -273,7 +273,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/forgot-password",
+					"raw": "https://final-pms.onrender.com/api/users/forgot-password",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -303,7 +303,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/verify-otp",
+					"raw": "https://final-pms.onrender.com/api/users/verify-otp",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -333,7 +333,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/reset-password",
+					"raw": "https://final-pms.onrender.com/api/users/reset-password",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -369,7 +369,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/change-password",
+					"raw": "https://final-pms.onrender.com/api/users/change-password",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -408,7 +408,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/profile",
+					"raw": "https://final-pms.onrender.com/api/users/profile",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -447,7 +447,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/doctors",
+					"raw": "https://final-pms.onrender.com/api/users/doctors",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -486,7 +486,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/doctors/66fedc77cd28841ff655876d",
+					"raw": "https://final-pms.onrender.com/api/users/doctors/66fedc77cd28841ff655876d",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -523,7 +523,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/doctors/66fedc77cd28841ff655876d",
+					"raw": "https://final-pms.onrender.com/api/users/doctors/66fedc77cd28841ff655876d",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -560,7 +560,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/doctors/66fedc77cd28841ff655876d",
+					"raw": "https://final-pms.onrender.com/api/users/doctors/66fedc77cd28841ff655876d",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -600,7 +600,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/patients",
+					"raw": "https://final-pms.onrender.com/api/users/patients",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -639,7 +639,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/patients/6706ee8fd4338cafbacd95ca",
+					"raw": "https://final-pms.onrender.com/api/users/patients/6706ee8fd4338cafbacd95ca",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -676,7 +676,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/patients/66fedb67cd28841ff6558769",
+					"raw": "https://final-pms.onrender.com/api/users/patients/66fedb67cd28841ff6558769",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -713,7 +713,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/patients/66fedb67cd28841ff6558769",
+					"raw": "https://final-pms.onrender.com/api/users/patients/66fedb67cd28841ff6558769",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -750,7 +750,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/users/profile",
+					"raw": "https://final-pms.onrender.com/api/users/profile",
 					"protocol": "http",
 					"host": [
 						"localhost"

@@ -65,7 +65,7 @@ const PrescriptionView = () => {
         <div className="flex justify-between items-start">
           <div className="flex-shrink-0">
             <img
-              src={patient.profileImage ? `https://final-pms.onrender.com//${patient.profileImage}` : patientImage}
+              src={patient.profileImage ? `https://final-pms.onrender.com/${patient.profileImage}` : patientImage}
               alt="Patient"
               className="w-32 h-32 rounded-full object-cover"
             />
@@ -130,7 +130,7 @@ const PrescriptionView = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {files.length > 0 ? files.map((file, index) => (
               <div key={index} className="border p-4 rounded-lg shadow">
-                <img src={`https://final-pms.onrender.com//${file.url}`} alt="Document" className="w-full h-48 object-cover mb-4" />
+                <img src={`https://final-pms.onrender.com/${file.url}`} alt="Document" className="w-full h-48 object-cover mb-4" />
               </div>
             )) : (
               <div className="flex justify-center">

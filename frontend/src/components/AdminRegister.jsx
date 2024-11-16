@@ -50,7 +50,7 @@ const AdminRegister = () => {
   useEffect(() => {
     const fetchHospitals = async () => {
       try {
-        const response = await axios.get("https://final-pms.onrender.com//api/hospitals");
+        const response = await axios.get("https://final-pms.onrender.com/api/hospitals");
         if (response.data && Array.isArray(response.data.data)) {
           setHospitals(response.data.data);
         } else {
@@ -88,7 +88,7 @@ const AdminRegister = () => {
 
     try {
       const response = await axios.post(
-        "https://final-pms.onrender.com//api/hospitals",
+        "https://final-pms.onrender.com/api/hospitals",
         hospitalPayload
       );
       if (response.status === 201) {

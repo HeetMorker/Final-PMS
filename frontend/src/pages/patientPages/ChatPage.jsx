@@ -71,7 +71,7 @@ const ChatPage = () => {
     if (selectedChat) {
       const fetchMessages = async () => {
         try {
-          const response = await fetch(`https://final-pms.onrender.com//api/chats/${selectedChat}/messages`, {
+          const response = await fetch(`https:/final-pms.onrender.com//api/chats/${selectedChat}/messages`, {
             headers: { Authorization: `Bearer ${token}` },
           });
           const data = await response.json();
@@ -105,7 +105,7 @@ const ChatPage = () => {
   // Start a chat with the selected user
   const startChat = async (user) => {
     try {
-      const response = await fetch("https://final-pms.onrender.com//api/chats/start", {
+      const response = await fetch("https://final-pms.onrender.com/api/chats/start", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -134,7 +134,7 @@ const ChatPage = () => {
     if (!newMessage.trim() || !selectedChat) return;
 
     try {
-      const sendMessageResponse = await fetch(`https://final-pms.onrender.com//api/chats/${selectedChat}/message`, {
+      const sendMessageResponse = await fetch(`https://final-pms.onrender.com/api/chats/${selectedChat}/message`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -191,7 +191,7 @@ const ChatPage = () => {
                 className={`flex items-center p-2 cursor-pointer ${selectedChatUser && selectedChatUser._id === user._id ? "bg-blue-100" : ""}`}
               >
                 <img
-                  src={`https://final-pms.onrender.com//${user.profileImage || userImage}`}
+                  src={`https://final-pms.onrender.com/${user.profileImage || userImage}`}
                   alt="avatar"
                   className="w-12 h-12 rounded-full mr-4"
                 />

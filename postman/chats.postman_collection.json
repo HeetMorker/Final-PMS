@@ -27,7 +27,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/chats/start",
+					"raw": "https://final-pms.onrender.com/api/chats/start",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -70,7 +70,7 @@
 					]
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/chats/67099b7df554e0c1ca2aa593/message",
+					"raw": "https://final-pms.onrender.com/api/chats/67099b7df554e0c1ca2aa593/message",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -110,7 +110,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/chats",
+					"raw": "https://final-pms.onrender.com/api/chats",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -148,7 +148,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://final-pms.onrender.com//api/chats/67099b7df554e0c1ca2aa593/messages",
+					"raw": "https://final-pms.onrender.com/api/chats/67099b7df554e0c1ca2aa593/messages",
 					"protocol": "http",
 					"host": [
 						"localhost"

@@ -131,7 +131,7 @@ const DoctorEditProfile = ({ onCancel }) => {
                     <img
                         src={
                             formData.profileImage && !(formData.profileImage instanceof File)
-                                ? `https://final-pms.onrender.com//${formData.profileImage}`
+                                ? `https://final-pms.onrender.com/${formData.profileImage}`
                                 : userImage
                         }
                         alt="Profile"
