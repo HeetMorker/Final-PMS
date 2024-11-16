@@ -24,7 +24,7 @@ const server = http.createServer(app);
 
 socketio.init(server);
 
-const PORT = Config.PORT || 8000;
+const PORT = Config.PORT || 5000;
 
 // Middleware
 app.use(express.json());
