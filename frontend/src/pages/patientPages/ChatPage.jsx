@@ -6,10 +6,7 @@ import chatIcon from "../../assets/images/chat-icon.png";
 import io from "socket.io-client";
 
 // Initialize socket connection
-const socket = io("https://final-pms.onrender.com", {
-  transports: ["websocket"],
-  secure: true
-});
+const socket = io("https://final-pms.onrender.com");
 
 const ChatPage = () => {
   const [selectedChatUser, setSelectedChatUser] = useState(null);
@@ -53,7 +50,7 @@ const ChatPage = () => {
     const fetchUsers = async () => {
       const endpoint = role === "doctor" ? "/api/users/patients" : "/api/users/doctors";
       try {
-        const response = await fetch(`https://final-pms.onrender.com/${endpoint}`, {
+        const response = await fetch(`https://final-pms.onrender.com${endpoint}`, {
           headers: { Authorization: `Bearer ${token}` },
         });
         const data = await response.json();

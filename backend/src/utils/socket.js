@@ -7,7 +7,7 @@ module.exports = {
   init: (server) => {
     io = socketio(server, {
       cors: {
-        origin:"https://final-pms.vercel.app",
+        origin:"http://localhost:3000",
         methods: ["GET", "POST"],
         allowedHeaders: ["Authorization"],
         credentials: true,
