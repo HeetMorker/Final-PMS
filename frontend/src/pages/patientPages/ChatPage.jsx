@@ -6,7 +6,10 @@ import chatIcon from "../../assets/images/chat-icon.png";
 import io from "socket.io-client";
 
 // Initialize socket connection
-const socket = io("https://final-pms.onrender.com");
+const socket = io("https://final-pms.onrender.com", {
+  transports: ["websocket"],
+  secure: true
+});
 
 const ChatPage = () => {
   const [selectedChatUser, setSelectedChatUser] = useState(null);
